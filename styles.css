@@ -1,0 +1,426 @@
+/*propiedades globales*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy-Heavy", sans-serif;
+  font-family: "Gilroy-Light", sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+h6 {
+  font-family: "Gilroy-Medium", sans-serif;
+}
+.contendor {
+  display: flex;
+  align-items: center;
+  height: 1440px;
+}
+
+/*------------------------------------------------------------------------
+propiedades barra promo*/
+.Promo-bar {
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  background-color: #4edfa9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 20px;
+  align-items: center;
+}
+.logo-80sales-promo {
+  margin-right: 20px;
+}
+.regalo-text {
+  font-family: "Gilroy-Bold", sans-serif;
+  align-items: center;
+  font-size: 16px;
+}
+.ver-mas-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #10172a;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.ver-mas {
+  color: #10172a;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  padding-right: 10px;
+  font-size: 14px;
+  align-items: center;
+}
+.arrow-right {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*------------------------------------------------------------------------
+propiedades navbar*/
+
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  background-color: #10172a;
+  border-color: rgba(74, 148, 213, 0.229);
+  border-width: 1px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 20px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.logotipo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 150px;
+  padding: 10px;
+}
+.nav-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .menu ul {
+  display: flex;
+  list-style: none;
+  padding-inline: 30px;
+}
+.menu ul li {
+  justify-content: right;
+}
+.menu ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 16px;
+}
+.btn-empresas {
+  display: flex;
+  align-items: center;
+  background-color: #4e73de;
+  width: 110px;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 30px #4e72de87;
+}
+.btn-empresas a {
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Gilroy-SemiBold", sans-serif;
+}
+
+/*------------------------------------------------------------------------
+propiedades header*/
+
+.header {
+  display: flex;
+  flex-flow: row;
+  background-color: #10172a;
+  padding: 70px 70px;
+  justify-content: space-between;
+}
+
+.subtitulo-header {
+  color: #4e73de;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-top: 50px;
+}
+.header .titulo-header {
+  color: aliceblue;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 40px;
+  width: 90%;
+  line-height: 60px;
+}
+.header .parrafo-header {
+  color: #b8c7f2;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  padding-bottom: 60px;
+  line-height: 35px;
+}
+
+.btn-agenda-reunion {
+  display: inline-block;
+  background-color: #4e73de;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 4px 30px #4e72de53;
+}
+
+.header .btn-ver-bootcamps {
+  display: inline-block;
+  border-width: 2px;
+  border-color: #4e73de;
+  border-radius: 5px;
+  color: aliceblue;
+  border-style: solid;
+  padding: 20px;
+  width: 200px;
+  text-decoration: none;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  text-align: center;
+}
+.imag-header{
+  padding: 20px 20px;
+}
+.img-header-bootcamp {
+  display: flex;
+  flex-direction: row;
+  justify-content:  center;
+  align-items: center;
+  width: 500px ;
+}
+.Official-sponsor {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text-microsoft {
+  color: aliceblue;
+  display: flex;
+  font-family: "Gilroy-Medium", sans-serif;
+  letter-spacing: 2px;
+}
+.logo-microsoft {
+  display: flex;
+}
+
+/*------------------------------------------------------------------------
+Partners de contratración*/
+
+.section-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #1b2c5d;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: 'Gilroy-SemiBold', sans-serif;
+}
+.logos-empresas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px;
+}
+
+
+/*------------------------------------------------------------------------
+Section Beneficios*/
+
+
+.section-beneficios{
+  background-color: aliceblue;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+  
+}
+.section-beneficios .cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #4f5a76;
+  font-family:'Gilroy-Medium', sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+}
+.section-beneficios .cards .icons-text .icons-datos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #b8c7f23c;
+  border-radius: 5px;
+  height: 60px;
+  width: 60px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 1px -2px 20px #4e72de24;
+}
+.section-beneficios .icons-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.section-beneficios .icons-text .subtitulo{
+  color: #1b2c5d;
+  font-family:'Gilroy-SemiBold', sans-serif;
+  font-size: 30px;
+}
+
+.section-beneficios .cards .icons-datos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #b8c7f23c;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 1px -2px 20px  #4e72de24;
+}
+.section-beneficios .cards .card-1{
+  margin: 30px;
+}
+.section-beneficios .cards .card-2{
+  margin: 30px;
+}
+.section-beneficios .cards .card-3{
+  margin: 30px;
+}
+.section-beneficios .cards .card-4{
+  margin: 30px;
+}
+
+/*------------------------------------------------------------------------
+Acelera tu negocio*/
+
+.section-acelera-tu-negocio {
+  display: flex;
+  flex-flow: column;
+  padding: 70px;
+}
+.text-acelera-tu-negocio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+h2 {
+  color: #10172a;
+  font-size: 35px;
+  margin: 30px;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+.title-cards-bullets {
+  font-size: 18px;
+  color: #1b2c5d;
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  margin-bottom: 20px;
+}
+.Parrafos-bullets {
+  font-size: 16px;
+  color: #4f5a76;
+  font-family: 'Gilroy-Medium', sans-serif;
+  line-height: 30px;
+}
+.items-beneficios {
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap row;
+  gap: 10px;
+}
+.items-beneficios .icons-Beneficios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #b8c7f23c;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 1px -2px 20px #4e72de24;
+}
+.bullet-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 30%;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.bullet-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 30%;
+  padding: 20px;
+}
+.bullet-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 30%;
+  padding: 20px;
+}
+.bullet-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 30%;
+  padding: 20px;
+}
+.bullet-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 30%;
+  padding: 20px;
+}
+.bullet-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 30%;
+  padding: 20px;
+}
